@@ -638,6 +638,7 @@ font-weight: 600;
 }
 
 .menu-page-product {
+  margin-bottom: 250px;
 }
 
 .product-page {
@@ -675,29 +676,20 @@ backdrop-filter: blur(25px);
 
 .product-page-title {
     color: rgba(255, 253, 253, 0.78);
-font-family: Poppins;
 font-size: 26px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.39px;
 }
 
 .product-page-text {
     color: rgba(255, 253, 253, 0.55);
-font-family: Poppins;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 }
 
 .product-page-quotes {
-    font-family: Lora;
 font-size: 250px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 background: linear-gradient(189deg, rgba(252, 252, 252, 0.00) 20.34%, rgba(255, 255, 255, 0.50) 155.72%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -707,9 +699,7 @@ background-clip: text;
 .product-page-incididunt {
     width: 393px;
     color: rgba(255, 255, 255, 0.78);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 214.286% */
 letter-spacing: 0.21px;
@@ -719,4 +709,80 @@ letter-spacing: 0.21px;
     width: 168px;
 height: 8px;
 flex-shrink: 0;
+}
+
+.menu-page-become {
+}
+
+.become-page {
+}
+
+.become-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.become-page-title {
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 48px;
+font-weight: 500;
+line-height: 130%; /* 62.4px */
+}
+
+.become-page-text {
+    width: 427px;
+    color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+}
+
+.join {
+    margin-top: 60px;
+    margin-bottom: 121px;
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: #283036;
+    width: 497.659px;
+    height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.become-page-find {
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 21px;
+    margin-bottom: 22px;
+}
+
+.become-page-button {
+    width: 130.435px;
+    height: 48px;
+    flex-shrink: 0;
+        border-radius: 8px;
+    background: #FF6E30;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 111px;
+    cursor: pointer;
+        transition: all 0.3s ease 0s; 
+}
+
+.become-page-button:hover {
+    background-color: #e0d8d8;
+} 
+
+.become-page-link {
+    width: 58.194px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 600;
 }
